@@ -1,4 +1,11 @@
 # This is an Ongoing Project
+New additions to be added:
+1. Results from Conv Trans model.
+2. Prediction of sleep stages after incorporating SpO2 sensor readings.
+3. Feature importance.
+4. Multistage classification results from all the models.
+
+These will be added by the end of my current academic semester (April 30, 2025)
 
 ## Distribution of sleep stages in the dataset
 ![image](https://github.com/user-attachments/assets/f2e90cac-b611-4aed-af8f-f4262125406b)
