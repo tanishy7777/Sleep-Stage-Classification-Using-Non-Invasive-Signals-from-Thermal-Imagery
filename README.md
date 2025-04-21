@@ -1,9 +1,6 @@
 # This is an Ongoing Project
-New additions to be added:
-1. Results from Conv Trans model.
-2. Prediction of sleep stages after incorporating SpO2 sensor readings.
-3. Feature importance.
-4. Multistage classification results from all the models.
+![TanishYelgoe_PosterPresentation_final-1](https://github.com/user-attachments/assets/43aa10aa-d196-44e3-8cd3-f50f96fb8295)
+
 
 These will be added by the end of my current academic semester (April 30, 2025)
 
