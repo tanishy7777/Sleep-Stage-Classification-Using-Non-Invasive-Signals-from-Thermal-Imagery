@@ -1,7 +1,7 @@
 # Sleep Stage Classification Using Non-Invasive Signals from Thermal Imagery
 
-
-    
+## Poster Presentation
+(click on the image for higher resolution)
 ![TanishYelgoe_PosterPresentation_final-1](https://github.com/user-attachments/assets/43aa10aa-d196-44e3-8cd3-f50f96fb8295)
 
 ## 📌 Motivation
