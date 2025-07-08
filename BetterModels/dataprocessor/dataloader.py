@@ -101,51 +101,6 @@ for i in range(len(x_list)):
      print()
 
 
-
-np.savez('sleep_dataset_essential.npz', 
+np.savez('BetterModels\datastore\sleep_dataset_essential.npz', 
          **{f'X_{i}': x for i, x in enumerate(x_list)},
          **{f'Y_{i}': y for i, y in enumerate(y_list)})
-
-
-
-
-
-# import collections 
-
-# Car = collections.namedtuple('Car', ['make', 'model', 'year'])
-# a = Car(make='Toyota', model='Corolla', year=2020)
-# print(a.make, a.model, a.year)
-
-
-
-
-# Card = collections.namedtuple('Card', ['rank', 'suit'])
-
-# class FrenchDeck():
-#     ranks = [str(n) for n in range(2, 11)] + list('JQKA')
-#     suits = ['hearts', 'diamonds', 'clubs', 'spades']
-
-#     def __init__(self):
-#         self._cards = [Card(rank, suit) for rank in self.ranks for suit in self.suits]
-    
-#     def __len__(self):
-#         return len(self._cards)
-    
-#     def __getitem__(self, idx):
-#         return self._cards[idx]
-    
-
-# beer_card = Card('7', 'diamonds')
-# print(beer_card.rank, beer_card.suit)
-
-
-# suit_values = dict(hearts=2, diamonds=1, clubs=0, spades=3)
-# deck = FrenchDeck()
-
-# def spades_high(card):
-#     """Return a value for the card."""
-#     rank_values = FrenchDeck.ranks.index(card.rank)
-#     return suit_values[card.suit] + rank_values*4
-
-# for card in sorted(deck, key=spades_high): # doctest: +ELLIPSIS
-#     print(card)

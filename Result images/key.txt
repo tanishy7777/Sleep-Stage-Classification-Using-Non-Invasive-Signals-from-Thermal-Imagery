@@ -1,0 +1,2 @@
+here essential means EGG specifically
+signal_keys = ['C3A2', 'C4A1']

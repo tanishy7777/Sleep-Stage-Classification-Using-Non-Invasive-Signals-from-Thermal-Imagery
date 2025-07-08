@@ -514,13 +514,13 @@ def run(loaded_data, class_labels=["Awake", "Sleep"]):
     plt.title('Combined Confusion Matrix')
     plt.show()
 
-# loaded_data = np.load('BetterModels/2stage_sleep_dataset.npz', allow_pickle=True)
-# run(loaded_data, class_labels=["Awake", "Sleep"])
+loaded_data = np.load('BetterModels/2_stage_sleep_dataset.npz', allow_pickle=True)
+run(loaded_data, class_labels=["Awake", "Sleep"])
 
-# loaded_data = np.load('BetterModels/3stage_sleep_dataset.npz', allow_pickle=True)
-# run(loaded_data, class_labels=["Awake", "REM", "NREM"])
+loaded_data = np.load('BetterModels/3_stage_sleep_dataset.npz', allow_pickle=True)
+run(loaded_data, class_labels=["Awake", "REM", "NREM"])
 
-loaded_data = np.load('BetterModels/4stage_sleep_dataset.npz', allow_pickle=True)
+loaded_data = np.load('BetterModels/4_stage_sleep_dataset.npz', allow_pickle=True)
 run(loaded_data, class_labels=["Awake", "REM", "Light Sleep", "Deep Sleep"])
 
 loaded_data = np.load('BetterModels/sleep_dataset.npz', allow_pickle=True)
